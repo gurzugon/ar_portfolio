@@ -1,0 +1,56 @@
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+
+<body style='margin : 0px; overflow-x: hidden;'>
+
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
+      <a-marker-camera preset='kanji'>
+    <a-entity>
+          <a-image src='bgk.png' position='-1.48 0.005 -0.010 ' rotation='90 180 0' height='3'
+              width='1.980'>
+              <a-text  position='-2.01 1.348 -0.133' rotation='10 180 0' color='#ffffff' value="3. FYPDiLoBo" font="dejavu" scale='0.750 0.820 1'>
+            </a-text>
+            <a-image src="fypdilobo/1.PNG" position='-2.987 0.764 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980'  scale='0.920 0.310 1.240'></a-image>
+            <a-text position='-2.010 0.159 -0.133' rotation='10 180 0' color='#ffffff' value="4. Shuttle.AR App" font="dejavu" scale='0.750 0.820 1'>
+            </a-text>
+            <a-image src="shuttle/1.PNG" position='-2.27 -0.50 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980'  scale='0.270 0.290 1'></a-image>
+            <a-image src="shuttle/2.jpeg" position='-2.90 -0.50 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980' scale='0.270 0.290 1'></a-image>
+            <a-image src="shuttle/3.PNG" position='-3.59 -0.50 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980' scale='0.270 0.290 1'></a-image>
+          </a-image>
+
+              <a-image src='bgk.png' position=' 1.473 0 -0.006 ' rotation='90 180 0' height='3'
+              width='1.980'>
+              <a-box depth="0.980" width="1.010" height="0.960" position="1.49 0 0.130" rotation='90 180 0' height='3'
+              width='1.980' blending="subtractive">
+              </a-box>
+              <a-text position='3.864 1.351 -0.196' rotation='10 180 0' color='#ffffff'' value="My Portfolio" font="dejavu">
+            </a-text>
+            <a-text position='3.835 1.123 -0.146' rotation='10 180 0' color='#ffffff' value="1. SLED App" font="dejavu" scale='0.750 0.820 1'>
+            </a-text>
+            <a-image src="sled/1.png" position='3.573 0.455 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980'  scale='0.270 0.290 1'></a-image>
+            <a-image src="sled/2.png" position='2.939 0.446 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980'  scale='0.270 0.290 1'></a-image>
+            <a-image src="sled/3.png" position='2.305 0.442 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980'  scale='0.270 0.290 1'></a-image>
+            <a-text position='3.855 -0.09 -0.146' rotation='10 180 0' color='#ffffff' value="2. EYED App" font="dejavu" scale='0.750 0.820 1'>
+            </a-text>
+            <a-image src="eyed/1.png" position='3.584 -0.710 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980' scale='0.270 0.290 1'></a-image>
+            <a-image src="eyed/2.PNG" position='2.949 -0.710 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980'  scale='0.270 0.290 1'></a-image>
+            <a-image src="eyed/3.jpeg" position='2.286 -0.710 -0.231' rotation='0.820 180 0' height='3'
+            width='1.980'  scale='0.270 0.290 1'></a-image>
+            <a-animation attribute="scale" begin="2000" to="2 2 2"></a-animation>
+           </a-image>
+              
+              
+           
+     </a-marker-camera> 
+     <a-entity camera="active: true" look-controls wasd-controls position="0 1.6 0" data-aframe-default-camera></a-entity>
+</a-scene>
+</body>
